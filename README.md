@@ -49,12 +49,6 @@ This project implements a sensor fusion algorithm that combines accelerometer an
 - **Communication**: I2C/SPI interface with ESP32
 - **Range**: Configurable measurement ranges for optimal performance
 
-## Hardware Schematic
-
-![ESP32 Hardware Schematic](images/esp32_schematic.png)
-
-*Schematic showing ESP32 WROVER module connections with LSM9DS1 IMU*
-
 ## Mathematical Foundation
 
 The Extended Kalman Filter estimates the system state (roll and pitch angles) by combining:
@@ -62,16 +56,17 @@ The Extended Kalman Filter estimates the system state (roll and pitch angles) by
 ### State Model (Motion Model)
 Uses gyroscope data for state prediction:
 
-![EKF State Equations](images/ekf_equations.png)
+![alt text](images/motion_model.png)
 
-*Extended Kalman Filter mathematical equations for roll and pitch estimation*
-
-Where:
-- **State vector**: [roll, pitch, roll_rate, pitch_rate]
-- **Motion model**: Integration of gyroscope angular rates
-- **Measurement model**: Roll and pitch angles derived from accelerometer data
+*Extended Kalman Filter motion model*
 
 ### Measurement Model
+Uses Accelerometer data for roll,pitch estimation
+
+![alt text](images/measurement.png)
+
+*Extended Kalman Filter measurement model*
+
 Linear acceleration components are used to compute roll and pitch angles:
 - Roll = atan2(ay, sqrt(ax² + az²))
 - Pitch = atan2(-ax, sqrt(ay² + az²))
@@ -172,7 +167,7 @@ rviz2
 
 The system provides real-time 3D visualization through RViz2:
 
-![EKF Output Visualization](images/rviz_output.png)
+![alt text](images/rviz.png)
 
 *Real-time roll and pitch visualization in RViz2 showing IMU orientation*
 
