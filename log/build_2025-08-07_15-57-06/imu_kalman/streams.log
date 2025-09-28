@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[2.170s] [100%] [32m[1mLinking CXX executable main[0m
+[2.251s] [100%] Built target main
+[2.259s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[2.266s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman
+[2.278s] -- Install configuration: ""
+[2.278s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main
+[2.278s] -- Set runtime path of "/home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main" to ""
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/package_run_dependencies/imu_kalman
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/parent_prefix_path/imu_kalman
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.sh
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.dsv
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.sh
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.dsv
+[2.278s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.bash
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.sh
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.zsh
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.dsv
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.dsv
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/packages/imu_kalman
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig.cmake
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig-version.cmake
+[2.279s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.xml
+[2.281s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman

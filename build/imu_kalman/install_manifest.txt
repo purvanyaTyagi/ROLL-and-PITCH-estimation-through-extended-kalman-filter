@@ -1,0 +1,16 @@
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/package_run_dependencies/imu_kalman
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/parent_prefix_path/imu_kalman
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.sh
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.dsv
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.sh
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.dsv
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.bash
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.sh
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.zsh
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.dsv
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.dsv
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/packages/imu_kalman
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig.cmake
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig-version.cmake
+/home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.xml

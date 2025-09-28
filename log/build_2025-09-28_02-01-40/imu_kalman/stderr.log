@@ -1,0 +1,10 @@
+[01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:[m[K In constructor ‘[01m[KSerialIMUNode::SerialIMUNode()[m[K’:
+[01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:35:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerialIMUNode::packet_count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   35 |     int [01;35m[Kpacket_count_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:28:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<bool> SerialIMUNode::should_exit_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   28 |     std::atomic<bool> [01;35m[Kshould_exit_[m[K;
+      |                       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     [01;35m[KSerialIMUNode[m[K() : Node("serial_imu_node"), serial_fd_(-1), packet_count_(0), should_exit_(false) {
+      |     [01;35m[K^~~~~~~~~~~~~[m[K

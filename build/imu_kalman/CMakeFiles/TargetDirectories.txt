@@ -1,0 +1,10 @@
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/uninstall.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/imu_kalman_uninstall.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/main.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/test.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/edit_cache.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/rebuild_cache.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/list_install_components.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/install.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/install/local.dir
+/home/purvanya/projects/IMU-ESP/build/imu_kalman/CMakeFiles/install/strip.dir

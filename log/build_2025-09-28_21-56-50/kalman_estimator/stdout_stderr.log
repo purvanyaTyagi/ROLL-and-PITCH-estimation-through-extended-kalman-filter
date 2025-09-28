@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/kalman_estimator/kalman_estimator.egg-info
+writing ../../build/kalman_estimator/kalman_estimator.egg-info/PKG-INFO
+writing dependency_links to ../../build/kalman_estimator/kalman_estimator.egg-info/dependency_links.txt
+writing entry points to ../../build/kalman_estimator/kalman_estimator.egg-info/entry_points.txt
+writing requirements to ../../build/kalman_estimator/kalman_estimator.egg-info/requires.txt
+writing top-level names to ../../build/kalman_estimator/kalman_estimator.egg-info/top_level.txt
+writing manifest file '../../build/kalman_estimator/kalman_estimator.egg-info/SOURCES.txt'
+reading manifest file '../../build/kalman_estimator/kalman_estimator.egg-info/SOURCES.txt'
+writing manifest file '../../build/kalman_estimator/kalman_estimator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build
+creating /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib
+creating /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib/kalman_estimator
+copying kalman_estimator/main.py -> /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib/kalman_estimator
+copying kalman_estimator/__init__.py -> /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib/kalman_estimator
+running install
+running install_lib
+creating /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator
+copying /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib/kalman_estimator/main.py -> /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator
+copying /home/purvanya/projects/IMU-ESP/build/kalman_estimator/build/lib/kalman_estimator/__init__.py -> /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator
+byte-compiling /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator/main.py to main.cpython-310.pyc
+byte-compiling /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/purvanya/projects/IMU-ESP/install/kalman_estimator/share/ament_index
+creating /home/purvanya/projects/IMU-ESP/install/kalman_estimator/share/ament_index/resource_index
+creating /home/purvanya/projects/IMU-ESP/install/kalman_estimator/share/ament_index/resource_index/packages
+copying resource/kalman_estimator -> /home/purvanya/projects/IMU-ESP/install/kalman_estimator/share/ament_index/resource_index/packages
+copying package.xml -> /home/purvanya/projects/IMU-ESP/install/kalman_estimator/share/kalman_estimator
+running install_egg_info
+Copying ../../build/kalman_estimator/kalman_estimator.egg-info to /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/python3.10/site-packages/kalman_estimator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main script to /home/purvanya/projects/IMU-ESP/install/kalman_estimator/lib/kalman_estimator
+writing list of installed files to '/home/purvanya/projects/IMU-ESP/build/kalman_estimator/install.log'

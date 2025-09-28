@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_models/include/**",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_msgs/include/**",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/vehiclecontrol_msgs/include/**",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/hellocm_msgs/include/**",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/eufs_msgs/include/**",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/dv_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/purvanya/projects/IMU-ESP/src/imu_kalman/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

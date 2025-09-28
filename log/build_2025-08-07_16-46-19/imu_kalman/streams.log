@@ -1,0 +1,15 @@
+[0.014s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[2.169s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerInterface[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[2.169s]    26 |     rclcpp::[01;31m[KTimerInterface[m[K::SharedPtr timer_;
+[2.169s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.178s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:[m[K In constructor ‘[01m[KSerialIMUNode::SerialIMUNode()[m[K’:
+[2.178s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.178s]    62 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(period, std::bind(&SerialIMUNode::timerCallback, this));
+[2.178s]       |         [01;31m[K^~~~~~[m[K
+[2.178s]       |         [32m[Ktimer_t[m[K
+[2.727s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[2.728s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+[2.728s] gmake: *** [Makefile:146: all] Error 2
+[2.731s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12

@@ -1,0 +1,78 @@
+[0.010s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/purvanya/projects/IMU-ESP/src/imu_kalman -DCMAKE_INSTALL_PREFIX=/home/purvanya/projects/IMU-ESP/install/imu_kalman
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.408s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.672s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.760s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.773s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.783s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.871s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.876s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.014s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.052s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.142s] -- Looking for pthread.h
+[1.264s] -- Looking for pthread.h - found
+[1.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.355s] -- Found Threads: TRUE  
+[1.402s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.478s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.478s] -- Configured cppcheck include dirs: 
+[1.478s] -- Configured cppcheck exclude dirs and/or files: 
+[1.478s] -- Added test 'lint_cmake' to check CMake code style
+[1.479s] -- Added test 'uncrustify' to check C / C++ code style
+[1.480s] -- Configured uncrustify additional arguments: 
+[1.480s] -- Added test 'xmllint' to check XML markup files
+[1.481s] -- Configuring done
+[1.483s] [33mCMake Warning (dev) at CMakeLists.txt:15 (add_executable):
+[1.483s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[1.483s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[1.483s]   command to set the policy and suppress this warning.
+[1.483s] 
+[1.483s]   File:
+[1.483s] 
+[1.483s]     /home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp
+[1.483s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.483s] [0m
+[1.496s] -- Generating done
+[1.496s] -- Build files have been written to: /home/purvanya/projects/IMU-ESP/build/imu_kalman
+[1.505s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake /home/purvanya/projects/IMU-ESP/src/imu_kalman -DCMAKE_INSTALL_PREFIX=/home/purvanya/projects/IMU-ESP/install/imu_kalman
+[1.508s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[1.563s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[1.799s] [100%] [32m[1mLinking CXX executable main[0m
+[1.899s] [100%] Built target main
+[1.912s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[1.924s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman
+[1.932s] -- Install configuration: ""
+[1.932s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main
+[1.933s] -- Set runtime path of "/home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main" to ""
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/package_run_dependencies/imu_kalman
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/parent_prefix_path/imu_kalman
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.sh
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.dsv
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.sh
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.dsv
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.bash
+[1.933s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.sh
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.zsh
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.dsv
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.dsv
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/packages/imu_kalman
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig.cmake
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig-version.cmake
+[1.934s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.xml
+[1.936s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/projects/EUFS/install/eufs_launcher:/home/purvanya/projects/EUFS/install/eufs_tracks:/home/purvanya/projects/EUFS/install/eufs_rqt:/home/purvanya/projects/EUFS/install/eufs_racecar:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman

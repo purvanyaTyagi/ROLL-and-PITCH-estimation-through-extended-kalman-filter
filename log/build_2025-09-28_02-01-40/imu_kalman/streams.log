@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[1.851s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:[m[K In constructor ‘[01m[KSerialIMUNode::SerialIMUNode()[m[K’:
+[1.851s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:35:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerialIMUNode::packet_count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.851s]    35 |     int [01;35m[Kpacket_count_[m[K;
+[1.851s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[1.851s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:28:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<bool> SerialIMUNode::should_exit_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.851s]    28 |     std::atomic<bool> [01;35m[Kshould_exit_[m[K;
+[1.851s]       |                       [01;35m[K^~~~~~~~~~~~[m[K
+[1.851s] [01m[K/home/purvanya/projects/IMU-ESP/src/imu_kalman/src/main.cpp:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.851s]    39 |     [01;35m[KSerialIMUNode[m[K() : Node("serial_imu_node"), serial_fd_(-1), packet_count_(0), should_exit_(false) {
+[1.851s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[3.343s] [100%] [32m[1mLinking CXX executable main[0m
+[3.565s] [100%] Built target main
+[3.583s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller:/opt/ros/humble /usr/bin/cmake --build /home/purvanya/projects/IMU-ESP/build/imu_kalman -- -j12 -l12
+[3.601s] Invoking command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman
+[3.611s] -- Install configuration: ""
+[3.611s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main
+[3.613s] -- Set runtime path of "/home/purvanya/projects/IMU-ESP/install/imu_kalman/lib/imu_kalman/main" to ""
+[3.613s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/package_run_dependencies/imu_kalman
+[3.613s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/parent_prefix_path/imu_kalman
+[3.613s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.sh
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/ament_prefix_path.dsv
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.sh
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/environment/path.dsv
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.bash
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.sh
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.zsh
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/local_setup.dsv
+[3.614s] -- Installing: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.dsv
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/ament_index/resource_index/packages/imu_kalman
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig.cmake
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/cmake/imu_kalmanConfig-version.cmake
+[3.614s] -- Up-to-date: /home/purvanya/projects/IMU-ESP/install/imu_kalman/share/imu_kalman/package.xml
+[3.616s] Invoked command in '/home/purvanya/projects/IMU-ESP/build/imu_kalman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar:/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller:/opt/ros/humble /usr/bin/cmake --install /home/purvanya/projects/IMU-ESP/build/imu_kalman

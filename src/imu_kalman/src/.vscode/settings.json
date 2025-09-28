@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/vehiclecontrol_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/hellocm_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/dv_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_launcher/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_tracks/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_rqt/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_racecar/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-Formula-Simulator/install/eufs_controller/lib/python3.10/site-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/vehiclecontrol_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/hellocm_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/purvanya/IITBDV/IITBDV-msgs/install/dv_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
